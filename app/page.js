@@ -100,7 +100,7 @@ export default function Home() {
 						RUNNING
 					</h1>
 					<p className='text-lg lg:text-xl max-w-prose font-anonymous text-white object-contain my-12'>
-						Make runs through the cyber-dystopian wasteland, plunder what you can, and bleed to <strong className='text-pink'>SURVIVE</strong>.
+						Run through the cyber-dystopian wasteland, plunder what you can, and bleed to <strong className='text-pink'>SURVIVE</strong>.
 						<br/>
 						<br/>
 						Join our <u><a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>mailing list</a></u> and be the first hear news about
