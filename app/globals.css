@@ -6,6 +6,22 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-blue: 13, 14, 22;
+}
+
+@font-face {
+  font-family: 'HansonBold';
+  src: url('/fonts/Aware-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'AnonymousBold';
+  src: url('/fonts/Anonymous-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Anonymous';
+  src: url('/fonts/Anonymous-Regular.ttf');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +34,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #04060f;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
