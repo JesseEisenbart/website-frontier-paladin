@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .button {
+    transition: color;
+    transition-duration: 100ms;
+    color: white;
+  }
+  .button-hover {
+    @apply text-pink;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
