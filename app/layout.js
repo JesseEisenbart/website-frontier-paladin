@@ -46,7 +46,7 @@ export const metadata = {
 			twitterSite: 'https://bloodrunning.com',
 			creator: '@deadunicorninc',
 			images: ['https://bloodrunning.com/1024x512.jpg'],
-		}
+		},
 	}
 }
 

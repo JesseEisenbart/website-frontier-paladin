@@ -31,7 +31,7 @@ export default function Home() {
 					Run through the cyber-dystopian wasteland, plunder what you can, and bleed to <strong className='text-pink'>SURVIVE</strong>.
 					<br/>
 					<br/>
-					Join our <u><a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>mailing list</a></u> and be the first hear news about
+					Join our <u><a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>mailing list</a></u> and be the first to hear news about
 					<br/>
 					<strong className='text-pink'>BLOOD RUNNING</strong>.
 					<br/>
