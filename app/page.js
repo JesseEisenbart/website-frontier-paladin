@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Head from 'next/head'
+import Script from 'next/script'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -11,6 +11,16 @@ import { faTiktok } from '@fortawesome/free-brands-svg-icons'
 export default function Home() {
 	return (
 		<main className='flex min-h-screen flex-col items-center justify-between px-6 lg:px-12 2xl:px-20'>
+			<Script src="https://www.googletagmanager.com/gtag/js?id=G-3PLN4Z5Q5L"/>
+			<Script id="google-analytics">
+				{`
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+
+					gtag('config', 'G-3PLN4Z5Q5L');
+				`}
+			</Script>
 			<div className='z-20 bg-gradient-to-t from-clay from-15% via-blue via-30% to-blue/50 w-full h-full fixed animate-fade'/>
 			<div className='z-10 w-full h-full fixed'>
 				<Image
