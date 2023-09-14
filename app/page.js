@@ -21,7 +21,7 @@ export default function Home() {
 					gtag('config', 'G-3PLN4Z5Q5L');
 				`}
 			</Script>
-			<div className='z-20 bg-gradient-to-t from-clay from-15% via-blue via-30% to-blue/50 w-full h-full fixed animate-fade'/>
+			<div className='z-20 bg-gradient-to-t from-clay  to-blue/20 w-full h-full fixed animate-fade'/>
 			<div className='z-10 w-full h-full fixed'>
 				<Image
 					className='object-cover'
