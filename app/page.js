@@ -36,12 +36,15 @@ export default function Home() {
 					Run through the cyber-dystopian wasteland, plunder what you can, and bleed to <strong className='text-pink'>SURVIVE</strong>.
 					<br/>
 					<br/>
+					Add <strong className='text-pink'>BLOOD RUNNING</strong> to your <u><a href='https://store.steampowered.com/app/2641490/Blood_Running' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>Steam wishlist</a></u> and help us reach 10K. 
+					<br/>
+					<br/>
 					Join our <u><a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>mailing list</a></u> and be the first to hear news about
 					<br/>
 					<strong className='text-pink'>BLOOD RUNNING</strong>.
 					<br/>
 				</p>
-				<a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='transition-colors duration-200 text-lg lg:text-2xl rounded-none font-anonymous object-contain bg-pink py-4 px-14 w-full md:w-auto md:max-w-xs text-clay hover:bg-white focus:shadow-outline'><strong>JOIN NOW</strong></a>
+				<a href='https://store.steampowered.com/app/2641490/Blood_Running' rel='noreferrer' target='_blank' className='transition-colors duration-200 text-lg lg:text-2xl rounded-none font-anonymous object-contain bg-pink py-4 px-14 w-full md:w-auto md:max-w-xs text-clay hover:bg-white focus:shadow-outline'><strong>WISHLIST NOW</strong></a>
 			</div>
 			<footer className='z-30 w-full text-sm my-12 animate-fade'>
 				<ul className='font-anonymous text-white flex flex-row space-x-3 lg:space-x-4 content-center'>
