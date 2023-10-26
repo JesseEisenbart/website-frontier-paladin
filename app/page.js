@@ -33,13 +33,13 @@ export default function Home() {
 					RUNNING
 				</h1>
 				<p className='text-lg lg:text-xl max-w-prose font-anonymous text-white object-contain my-12'>
-					Run through the cyber-dystopian wasteland, plunder what you can, and bleed to <strong className='text-pink'>SURVIVE</strong>.
+					🩸 Run through the cyber-dystopian wasteland, plunder what you can, and bleed to <strong className='text-pink'>SURVIVE</strong>.
 					<br/>
 					<br/>
-					Add <strong className='text-pink'>BLOOD RUNNING</strong> to your <u><a href='https://store.steampowered.com/app/2641490/Blood_Running' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>Steam wishlist</a></u> and help us reach 10K. 
+					✅ Add <strong className='text-pink'>BLOOD RUNNING</strong> to your <u><a href='https://store.steampowered.com/app/2641490/Blood_Running' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>Steam wishlist</a></u> and help us reach 10K. 
 					<br/>
 					<br/>
-					Join our <u><a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>mailing list</a></u> and be the first to hear news about
+					✉️ Join our <u><a href='https://dashboard.mailerlite.com/forms/412044/97049765490984751/share' rel='noreferrer' target='_blank' className='cursor-pointer button hover:button-hover'>mailing list</a></u> and be the first to hear news about
 					<br/>
 					<strong className='text-pink'>BLOOD RUNNING</strong>.
 					<br/>
