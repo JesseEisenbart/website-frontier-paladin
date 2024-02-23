@@ -15,6 +15,7 @@ const About = () => {
                 <AboutSection side='left'>
                     <Image
                         src={`/images/screenshots/screenshot-7.png`}
+                        alt='Blood Running screenshot'
                         unoptimized 
                         priority
                         width={1920}
@@ -35,10 +36,10 @@ const About = () => {
                 <AboutSection side='left'>
                     <h2 className='font-monterrat text-white text-3xl lg:text-4xl font-bold py-0 mb-5 leading-none'>QUESTS & LOOTING</h2>
                     <p className='font-hind text-silver text-lg lg:text-xl font-normal'>
-                        Between blood runs, you'll explore Outpost 072 and embark on various quests that take you through an intriguing world.
+                        Between blood runs, you&apos;ll explore Outpost 072 and embark on various quests that take you through an intriguing world.
                         <br/>
                         <br/>
-                        By meeting intriguing characters, you'll gradually uncover secrets and stories about the world. 
+                        By meeting intriguing characters, you&apos;ll gradually uncover secrets and stories about the world. 
                         <br/>
                         <br/>
                         With over 120 different items to find, you can craft new items, enhance your base, and trade with merchants.
@@ -47,6 +48,7 @@ const About = () => {
                 <AboutSection>
                     <Image
                         src={`/images/screenshots/screenshot-2.png`}
+                        alt='Blood Running screenshot'
                         unoptimized 
                         priority
                         width={1920}
@@ -58,6 +60,7 @@ const About = () => {
                 <AboutSection side='left'>
                     <Image
                         src={`/images/screenshots/screenshot-3.png`}
+                        alt='Blood Running screenshot'
                         unoptimized 
                         priority
                         width={1920}

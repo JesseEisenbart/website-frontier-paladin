@@ -79,7 +79,7 @@ const Email = () => {
                             width={879}
                             height={1220}
                         />
-                        <h3 className='text-center text-white text-2xl font-bold font-monterrat relative my-8'>Don't miss out on the private demo!</h3>
+                        <h3 className='text-center text-white text-2xl font-bold font-monterrat relative my-8'>Don&apos;t miss out on the private demo!</h3>
                         {status != '' && (
                             <>
                                 <h3 className='text-3xl lg:text-5xl font-bold uppercase text-white mb-4'>{status}</h3>
