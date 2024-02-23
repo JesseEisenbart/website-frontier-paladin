@@ -36,7 +36,7 @@ export const metadata = {
 		apple: '/apple-touch-icon.png',
 	},
 	openGraph: {
-		title: 'Blood Running',
+		title: 'Blood Running | Wishlist on Steam',
 		description: 'Blood Running is a stylish extraction shooter where you\'ll enter the cyber-wasteland, fight vicious foes, loot valuable gear, and venture into the remnants of a world in ruins. Will you bleed to survive, Blood Runner?',
 		url: 'https://bloodrunning.com',
 		siteName: 'Blood Running',
@@ -52,7 +52,7 @@ export const metadata = {
 		],
 		twitter: {
             card: 'summary_large_image',
-            title: 'Blood Running',
+            title: 'Blood Running | Wishlist on Steam',
             description: 'Blood Running is a stylish extraction shooter where you\'ll enter the cyber-wasteland, fight vicious foes, loot valuable gear, and venture into the remnants of a world in ruins. Will you bleed to survive, Blood Runner?',
             site: 'https://bloodrunning.com',
             creator: '@deadunicorninc',
