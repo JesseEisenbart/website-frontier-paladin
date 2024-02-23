@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='w-full h-full'>
             <Image
                 className='hidden lg:block object-cover'
-                src={`/cover-art.png`}
+                src={`/images/cover-art.png`}
                 alt='Blood Running cover art'
                 fill
                 priority 
@@ -18,7 +18,7 @@ const Hero = () => {
 			/>
             <Image
                 className='block lg:hidden object-cover'
-                src={`/mobile-cover-art.jpg`}
+                src={`/images/mobile-cover-art.jpg`}
                 alt='Blood Running cover art'
                 fill
                 priority 
@@ -36,7 +36,7 @@ const Hero = () => {
                         width={1280}
                         height={720}
                         alt='Blood Running Logo'
-                        src='/logo.png'
+                        src='/images/logo.png'
                         priority 
                         quality={100}
                     /> 
