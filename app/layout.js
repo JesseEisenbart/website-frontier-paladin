@@ -44,7 +44,7 @@ export const metadata = {
 		type: 'website',
 		images: [
 			{
-				url: 'https://bloodrunning.com/1200x630.jpg',
+				url: 'https://www.bloodrunning.com/1200x630.jpg',
 				width: 1200,
 				heigh: 630,
 				alt: 'Blood Running cover art'
@@ -58,7 +58,7 @@ export const metadata = {
             creator: '@deadunicorninc',
             images: [
                 {
-                    url: 'https://bloodrunning.com/1024x512.jpg',
+                    url: 'https://www.bloodrunning.com/1024x512.jpg',
                     width: 1024,
                     height: 512,
                     alt: 'Blood Running cover art',
