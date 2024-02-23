@@ -72,7 +72,7 @@ const Email = () => {
                 <div className='flex flex-row justify-center mb-2 lg:mb-16'>
                     <div className='w-full md:w-1/2 mb-16 md:mb-8'>
                         <Image
-                            className='px-10 md:px-56 py-8'
+                            className='px-10 md:px-14 xl:px-56 py-8'
                             src={`/images/demo-box.png`}
                             alt='Blood Running demo box' 
                             priority

@@ -17,14 +17,14 @@ const Footer = () => {
                             <li className='mt-1 sm:mt-1.5'><Link className='flex items-center text-md leading-snug hover:opacity-75' href='https://www.threads.net/@deadunicorninc'>Threads</Link></li>
                             <li className='mt-1 sm:mt-1.5'><Link className='flex items-center text-md leading-snug hover:opacity-75' href='https://discord.gg/dead-unicorn-772603203246227547'>Discord</Link></li>
                             <li className='mt-1 sm:mt-1.5'><Link className='flex items-center text-md leading-snug hover:opacity-75' href='https://store.steampowered.com/developer/DeadUnicorn'>Steam</Link></li>
-                        </ul>      
+                        </ul>    
                     </div>
                     <div className='mb-8 sm:mb-0'>
                         <h4 className='font-semibold mb-3 text-lg sm:text-md'>Learn More</h4>
                         <div>
                         <ul className='flex flex-col justify-between items-center sm:inline-block'>
                                 <li className='mt-1 sm:mt-1.5'><Link className='flex items-center text-md leading-snug hover:opacity-75' href='https://www.deadunicorn.games/about'>About</Link></li>
-                                <li className='mt-1 sm:mt-1.5'><Link className='flex items-center text-md leading-snug hover:opacity-75' href='https://www.youtube.com/playlist?list=PLRlSfhHNYJS-VTo0ofo-EwcNNMg1NUC04'>Dev Log</Link></li>
+                                <li className='mt-1 sm:mt-1.5'><Link className='flex items-center text-md leading-snug hover:opacity-75' href='https://www.youtube.com/playlist?list=PLRlSfhHNYJS-VTo0ofo-EwcNNMg1NUC04'>Devlog</Link></li>
                             </ul>       
                         </div>
                     </div>

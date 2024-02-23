@@ -32,7 +32,7 @@ const Hero = () => {
                     viewport={{ once: true }}
                 >
                     <Image 
-                        className='px-6 lg:px-0 absolute top-1/4 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2/3 lg:p-56 xl:p-56 animate-fade'
+                        className='px-6 md:px-24 lg:p-56 absolute top-1/4 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2/3 animate-fade'
                         width={1280}
                         height={720}
                         alt='Blood Running Logo'
