@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 export const metadata = {
 	title: {
 		template: '%s | Blood Running',
-		default: 'Blood Running',
+		default: 'Blood Running | Wishlist on Steam',
 	},
 	description: 'Blood Running is a stylish extraction shooter where you\'ll enter the cyber-wasteland, fight vicious foes, loot valuable gear, and venture into the remnants of a world in ruins. Will you bleed to survive, Blood Runner?',
 	metadataBase: new URL('https://bloodrunning.com'),
