@@ -16,8 +16,12 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-	title: 'Blood Running',
+	title: {
+		template: '%s | Blood Running',
+		default: 'Blood Running',
+	},
 	description: 'Plunder the wasteland and bleed to survive.',
+	metadataBase: new URL('https://bloodrunning.com'),
 	viewport: {
 		width: 'device-width',
 		initialScale: 1,
@@ -45,21 +49,22 @@ export const metadata = {
 				heigh: 630,
 				alt: 'Blood Running cover art'
 			},
-			{
-				url: 'https://bloodrunning.com/1024x512.jpg',
-				width: 1024,
-				heigh: 512,
-				alt: 'Blood Running cover art'
-			},
 		],
 		twitter: {
-			card: 'summary_large_image',
-			title: 'Blood Running',
-			description: 'Plunder the wasteland and bleed to survive.',
-			twitterSite: 'https://bloodrunning.com',
-			creator: '@deadunicorninc',
-			images: ['https://bloodrunning.com/1024x512.jpg'],
-		},
+            card: 'summary_large_image',
+            title: title,
+            description: description,
+            site: 'https://bloodrunning.com',
+            creator: '@deadunicorninc',
+            images: [
+                {
+                    url: 'https://bloodrunning.com/1024x512.jpg',
+                    width: 1024,
+                    height: 512,
+                    alt: 'Blood Running cover art',
+                },
+            ],
+        },
 	}
 }
 

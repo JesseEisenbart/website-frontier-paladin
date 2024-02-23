@@ -31,7 +31,7 @@ const Hero = () => {
                     whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeInOut' }}}
                     viewport={{ once: true }}
                 >
-                    <Image 
+                    <Image
                         className='px-6 md:px-24 lg:p-56 absolute top-1/4 lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2/3 animate-fade'
                         width={1280}
                         height={720}

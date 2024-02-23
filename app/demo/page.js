@@ -3,6 +3,10 @@ import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
 import React from 'react'
 
+export const metadata = {
+  title: 'Demo',
+}
+
 const Demo = () => {
   return (
     <div>    
