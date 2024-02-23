@@ -52,8 +52,8 @@ export const metadata = {
 		],
 		twitter: {
             card: 'summary_large_image',
-            title: title,
-            description: description,
+            title: 'Blood Running',
+            description: 'Plunder the wasteland and bleed to survive.',
             site: 'https://bloodrunning.com',
             creator: '@deadunicorninc',
             images: [
