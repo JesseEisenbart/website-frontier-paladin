@@ -13,6 +13,7 @@ module.exports = {
 				pink: '#ff1f57',
 				blue: '#0d0e16',
 				clay: '#04060f',
+				silver: '#c9cdd2',
 				transparent: 'transparent',
 				current: 'currentColor',
 				black: colors.black,
@@ -35,6 +36,8 @@ module.exports = {
 				aware: 'Aware',
 				anonymous: 'Anonymous',
 				anonymousBold: 'AnonymousBold',
+				hind: ['var(--font-hind)'],
+        		monterrat: ['var(--font-montserrat)'],
 			},
 			keyframes: {
 				slide: {

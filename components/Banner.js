@@ -31,7 +31,7 @@ const Banner = () => {
                     transitionTimingFunction: 'cubic-bezier(0.1, 0.7, 1)'
                 }}>
                     <Image
-						className='object-cover blur-[1px]'
+						className='object-cover blur-[1px] fixed'
 						src={`/images/screenshots/${src}`}
 						alt='Blood Running preview'
 						fill

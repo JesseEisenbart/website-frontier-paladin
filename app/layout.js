@@ -1,6 +1,19 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Montserrat, Hind } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
+const hind = Hind({ 
+	weight: ['300', '400', '500', '600', '700'],
+	subsets: ['latin'],
+	display: 'swap',
+	variable: '--font-hind',
+})
+
+const montserrat = Montserrat({ 
+	subsets: ['latin'],
+	display: 'swap',
+	variable: '--font-montserrat',
+})
 
 export const metadata = {
 	title: 'Blood Running',
@@ -52,7 +65,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html lang="en" className={`${hind.variable} ${montserrat.variable}`}>
 			<body className={inter.className}>{children}</body>
 		</html>
 	)
