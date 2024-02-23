@@ -20,7 +20,7 @@ export const metadata = {
 		template: '%s | Blood Running',
 		default: 'Blood Running',
 	},
-	description: 'll enter the cyber-wasteland, collect blood for your clients, loot valuable gear, and venture into the remnants of a world in ruins. Are you willing to bleed to survive, Blood Runner?',
+	description: 'Blood Running is a stylish extraction shooter where you\'ll enter the cyber-wasteland, fight vicious foes, loot valuable gear, and venture into the remnants of a world in ruins. Will you bleed to survive, Blood Runner?',
 	metadataBase: new URL('https://bloodrunning.com'),
 	viewport: {
 		width: 'device-width',
@@ -37,7 +37,7 @@ export const metadata = {
 	},
 	openGraph: {
 		title: 'Blood Running',
-		description: 'll enter the cyber-wasteland, collect blood for your clients, loot valuable gear, and venture into the remnants of a world in ruins. Are you willing to bleed to survive, Blood Runner?',
+		description: 'Blood Running is a stylish extraction shooter where you\'ll enter the cyber-wasteland, fight vicious foes, loot valuable gear, and venture into the remnants of a world in ruins. Will you bleed to survive, Blood Runner?',
 		url: 'https://bloodrunning.com',
 		siteName: 'Blood Running',
 		locale: 'en-US',
@@ -53,7 +53,7 @@ export const metadata = {
 		twitter: {
             card: 'summary_large_image',
             title: 'Blood Running',
-            description: 'll enter the cyber-wasteland, collect blood for your clients, loot valuable gear, and venture into the remnants of a world in ruins. Are you willing to bleed to survive, Blood Runner?',
+            description: 'Blood Running is a stylish extraction shooter where you\'ll enter the cyber-wasteland, fight vicious foes, loot valuable gear, and venture into the remnants of a world in ruins. Will you bleed to survive, Blood Runner?',
             site: 'https://bloodrunning.com',
             creator: '@deadunicorninc',
             images: [
