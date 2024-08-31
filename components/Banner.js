@@ -8,8 +8,6 @@ const Banner = () => {
         'screenshot_2.png', 
         'screenshot_3.png', 
         'screenshot_4.png', 
-        'screenshot_5.png', 
-        'screenshot_6.png', 
     ]
     
     const [currentImage, setCurrentImage] = useState(0)

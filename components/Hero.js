@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
             <div className='absolute top-1/2 lg:top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
             <motion.a
-                className="font-hind flex justify-center text-center hover:bg-white hover:text-pink bg-pink text-white text-lg lg:text-3xl font-bold pt-3 pb-2 px-2 lg:px-9 shadow-md"
+                className="font-hind flex justify-center text-center hover:bg-white hover:text-pink bg-pink text-white text-xl lg:text-3xl font-bold pt-3 pb-2 px-4 lg:px-9 shadow-md"
                 href='https://store.steampowered.com/app/2641490/Blood_Running/?utm_source=Website'
                 target='_blank'
                 initial={{ opacity: 0 }}

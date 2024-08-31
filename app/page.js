@@ -8,6 +8,7 @@ import Email from '@/components/Email'
 import Footer from '@/components/Footer'
 import Trailer from '@/components/Trailer'
 import Nav from '@/components/Nav'
+import Showcase from '@/components/Showcase'
 
 export default function Home() {
 	return (
@@ -26,7 +27,7 @@ export default function Home() {
 			<Hero />
 			<About />
 			<Trailer />
-			<Email />
+			<Showcase />
 			<Footer />
 		</main>
 	)
