@@ -10,7 +10,7 @@ const About = () => {
         <div className='text-center text-white text-6xl font-bold font-monterrat pb-5 lg:py-32'>
             <Header>BLEED TO SURVIVE</Header>
             <p className='text-left font-hind text-silver text-lg lg:text-xl font-normal md:max-w-[50%] w-full mx-auto mb-10'>
-            Blood Running is a stylish pixel art extraction shooter. You'll enter the cyber-wasteland, fight off androids, aliens, and bandits, loot valuable armour and items, and explore the apocalyptic world.<br/><br/>Your job as a Blood Runner is simple; make the Sovereigns happy. Collect bountiful loot, bleed, kill whatever and whoever stands in your way, survive the wasteland, and spend your hard earned creds in the Outpost.
+            Blood Running is a stylish pixel art extraction shooter. You&apos;ll enter the cyber-wasteland, fight off androids, aliens, and bandits, loot valuable armour and items, and explore the apocalyptic world.<br/><br/>Your job as a Blood Runner is simple; make the Sovereigns happy. Collect bountiful loot, bleed, kill whatever and whoever stands in your way, survive the wasteland, and spend your hard earned creds in the Outpost.
             </p>
         </div>
         <div>
@@ -31,7 +31,7 @@ const About = () => {
                 <AboutSection>
                     <h2 className='font-monterrat text-white text-3xl lg:text-4xl font-bold py-0 mb-5 leading-none'>QUESTS & LOOTING</h2>
                     <p className='font-hind text-silver text-lg lg:text-xl font-normal'>
-                        Between runs, you'll explore Outpost 072 and embark on various quests that take you through the world. You'll uncover secrets and stories about the world by meeting intriguing characters. With over 100 unique items to find, you can craft new items, enhance your base, and trade with merchants.
+                        Between runs, you&apos;ll explore Outpost 072 and embark on various quests that take you through the world. You&apos;ll uncover secrets and stories about the world by meeting intriguing characters. With over 100 unique items to find, you can craft new items, enhance your base, and trade with merchants.
                     </p>
                 </AboutSection>
             </div>
