@@ -26,6 +26,7 @@ module.exports = {
 				neutral: colors.trueGray,
 				gray: colors.coolGray,
 				slate: colors.blueGray,
+				brown: "#61553e"
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

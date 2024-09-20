@@ -1,79 +1,282 @@
-import Container from './Container'
-import React from 'react'
-import AboutSection from './AboutSection'
-import Image from 'next/image'
-import Header from './Header'
+'use client';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
+import Link from 'next/link';
+import Divider from './Divider';
+import Social from './Social';
+import useStore from '@/stores/globalStore';
+
+const Trailer = () => {
+	const [isHovering, setIsHovered] = useState(false);
+	const { openTrailer } = useStore();
+	const onMouseEnter = () => setIsHovered(true);
+	const onMouseLeave = () => setIsHovered(false);
+	return (
+		<div
+			className='flex items-center flex-shrink-0 cursor-pointer'
+			onMouseEnter={onMouseEnter}
+			onMouseLeave={onMouseLeave}
+		>
+			<Link href='/' onClick={openTrailer}>
+				{isHovering ? (
+					<Image
+						src='/images/trailer-highlight.png'
+						width={0}
+						height={0}
+						sizes='200vw'
+						style={{ width: '100%', height: 'auto' }} // optional
+						alt='logo'
+					/>
+				) : (
+					<Image
+						src='/images/trailer.png'
+						width={0}
+						height={0}
+						sizes='200vw'
+						style={{ width: '100%', height: 'auto' }} // optional
+						alt='logo'
+					/>
+				)}
+			</Link>
+		</div>
+	);
+};
+
+const Discord = () => {
+	const [isHovering, setIsHovered] = useState(false);
+	const onMouseEnter = () => setIsHovered(true);
+	const onMouseLeave = () => setIsHovered(false);
+	return (
+		<div
+			className='flex items-center flex-shrink-0 cursor-pointer'
+			onMouseEnter={onMouseEnter}
+			onMouseLeave={onMouseLeave}
+		>
+			<Link href='https://discord.gg/5DdwvJYunQ'>
+				{isHovering ? (
+					<Image
+						src='/images/discord-button-highlight.png'
+						width={0}
+						height={0}
+						sizes='150vw'
+						style={{ width: '100%', height: 'auto' }} // optional
+						alt='logo'
+					/>
+				) : (
+					<Image
+						src='/images/discord-button.png'
+						width={0}
+						height={0}
+						sizes='150vw'
+						style={{ width: '100%', height: 'auto' }} // optional
+						alt='logo'
+					/>
+				)}
+			</Link>
+		</div>
+	);
+};
+
+const Wishlist = () => {
+	const [isHovering, setIsHovered] = useState(false);
+	const onMouseEnter = () => setIsHovered(true);
+	const onMouseLeave = () => setIsHovered(false);
+	return (
+		<div
+			className='flex items-center flex-shrink-0 cursor-pointer'
+			onMouseEnter={onMouseEnter}
+			onMouseLeave={onMouseLeave}
+		>
+			<Link href='https://store.steampowered.com/app/2804970/Frontier_Paladin/'>
+				{isHovering ? (
+					<Image
+						src='/images/wishlist-highlight.png'
+						width={0}
+						height={0}
+						sizes='150vw'
+						style={{ width: '100%', height: 'auto' }} // optional
+						alt='logo'
+					/>
+				) : (
+					<Image
+						src='/images/wishlist.png'
+						width={0}
+						height={0}
+						sizes='150vw'
+						style={{ width: '100%', height: 'auto' }} // optional
+						alt='logo'
+					/>
+				)}
+			</Link>
+		</div>
+	);
+};
 
 const About = () => {
-  return (
-    <Container>
-        <div className='text-center text-white text-6xl font-bold font-monterrat pb-5 lg:py-32'>
-            <Header>BLEED TO SURVIVE</Header>
-            <p className='text-left font-hind text-silver text-lg lg:text-xl font-normal md:max-w-[50%] w-full mx-auto mb-10'>
-            Blood Running is a stylish pixel art extraction shooter. You&apos;ll enter the cyber-wasteland, fight off androids, aliens, and bandits, loot valuable armour and items, and explore the apocalyptic world.<br/><br/>Your job as a Blood Runner is simple; make the Sovereigns happy. Collect bountiful loot, bleed, kill whatever and whoever stands in your way, survive the wasteland, and spend your hard earned creds in the Outpost.
-            </p>
-        </div>
-        <div>
+	return (
+		<div className='w-full min-h-screen relative '>
+			<div className='w-full h-full border-t-4 border-brown'>
+				<Image
+					className='object-cover -z-10'
+					src={`/images/background.png`}
+					alt='Frontier Paladin art'
+					fill
+					priority
+					quality={100}
+				/>
+				<div className='relative 2xl:container mx-auto px-10 md:px-36 2xl:px-48 z-20'>
+					<motion.div
+						className='w-full h-full object-cover flex justify-center mt-32'
+						initial={{ opacity: 0, y: 60 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { duration: 0.5, ease: 'easeInOut' },
+						}}
+						viewport={{ once: true }}
+					>
+						<Trailer />
+					</motion.div>
+					<Divider />
+					<motion.div
+						className='w-full h-full object-cover flex justify-center my-mt-16'
+						initial={{ opacity: 0, y: 60 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { duration: 0.5, ease: 'easeInOut' },
+						}}
+						viewport={{ once: true }}
+					>
+						<Image
+							src='/images/characters.png'
+							width={0}
+							height={0}
+							sizes='100vw'
+							style={{ width: '80%', height: 'auto' }} // optional
+							alt='logo'
+						/>
+					</motion.div>
+					<motion.div
+						className='w-full h-full object-cover flex justify-center mb-48'
+						initial={{ opacity: 0, y: 60 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { duration: 0.5, ease: 'easeInOut' },
+						}}
+						viewport={{ once: true }}
+					>
+						<Image
+							src='/images/description.png'
+							width={0}
+							height={0}
+							sizes='100vw'
+							style={{ width: '75%', height: 'auto' }} // optional
+							alt='logo'
+						/>
+					</motion.div>
+					<Divider />
+					<motion.div
+						className='w-full h-full object-cover flex justify-center mb-48'
+						initial={{ opacity: 0, y: 60 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { duration: 0.5, ease: 'easeInOut' },
+						}}
+						viewport={{ once: true }}
+					>
+						<div className='w-full flex flex-row justify-center px-20'>
+							<div className='w-1/2 flex flex-col justify-center items-center px-20'>
+								<Image
+									className='mb-20'
+									src='/images/discord-text.png'
+									width={0}
+									height={0}
+									sizes='100vw'
+									style={{ width: '70%', height: 'auto' }} // optional
+									alt='logo'
+								/>
+								<Discord />
+							</div>
+							<div className='w-1/2 flex flex-col justify-center items-center px-20'>
+								<Image
+									className='mb-20'
+									src='/images/wishlist-text.png'
+									width={0}
+									height={0}
+									sizes='100vw'
+									style={{ width: '70%', height: 'auto' }} // optional
+									alt='logo'
+								/>
+								<Wishlist />
+							</div>
+						</div>
+					</motion.div>
+					<Divider />
+					<motion.div
+						className='w-full h-full object-cover flex flex-col items-center justify-center mb-48 mt-36'
+						initial={{ opacity: 0, y: 60 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { duration: 0.5, ease: 'easeInOut' },
+						}}
+						viewport={{ once: true }}
+					>
+						<Image
+							className='mb-20'
+							src='/images/connect.png'
+							width={0}
+							height={0}
+							sizes='100vw'
+							style={{ width: '20%', height: 'auto' }} // optional
+							alt='logo'
+						/>
+						<div className='max-w-2xl w-full px-24 flex flex-row justify-center'>
+							<Social
+								link='https://discord.gg/5DdwvJYunQ'
+								icon='discord'
+							/>
+							<Social
+								link='https://store.steampowered.com/app/2804970/Frontier_Paladin/'
+								icon='steam'
+							/>
+							<Social
+								link='https://youtu.be/wvWqTduNdxY'
+								icon='youtube'
+							/>
+							<Social
+								link='https://x.com/FrontierPaladin'
+								icon='twitter'
+							/>
+						</div>
+					</motion.div>
+					<motion.div
+						className='w-full h-full object-cover flex justify-center mb-48 px-64 mt-48'
+						initial={{ opacity: 0, y: 60 }}
+						whileInView={{
+							opacity: 1,
+							y: 0,
+							transition: { duration: 0.5, ease: 'easeInOut' },
+						}}
+						viewport={{ once: true }}
+					>
+						<Image
+							src='/images/studio.png'
+							width={0}
+							height={0}
+							sizes='100vw'
+							style={{ width: '20%', height: 'auto' }} // optional
+							alt='logo'
+						/>
+					</motion.div>
+				</div>
+			</div>
+		</div>
+	);
+};
 
-        </div>
-        <div className='md:flex w-full flex-col mb-1 px-0 lg:px-10'>
-            <div className='w-full flex flex-col lg:flex-row mb-14 justify-between'>
-                <AboutSection side='left'>
-                    <Image
-                        src={`/images/screenshots/screenshot-1.png`}
-                        alt='Blood Running screenshot'
-                        unoptimized 
-                        priority
-                        width={1920}
-                        height={1080}
-                    />
-                </AboutSection>
-                <AboutSection>
-                    <h2 className='font-monterrat text-white text-3xl lg:text-4xl font-bold py-0 mb-5 leading-none'>QUESTS & LOOTING</h2>
-                    <p className='font-hind text-silver text-lg lg:text-xl font-normal'>
-                        Between runs, you&apos;ll explore Outpost 072 and embark on various quests that take you through the world. You&apos;ll uncover secrets and stories about the world by meeting intriguing characters. With over 100 unique items to find, you can craft new items, enhance your base, and trade with merchants.
-                    </p>
-                </AboutSection>
-            </div>
-            <div className='w-full flex flex-col-reverse lg:flex-row mb-14 justify-between'>
-                <AboutSection side='left'>
-                    <h2 className='font-monterrat text-white text-3xl lg:text-4xl font-bold py-0 mb-5 leading-none'>UNIQUE EVERY TIME</h2>
-                    <p className='font-hind text-silver text-lg lg:text-xl font-normal'>
-                    With a randomly generated world, no two runs will be the same. Explore the maps, each with a unique keystone location featuring constantly changing environments, loot locations, and layouts. Improve your skills to navigate, succeed, and uncover the secrets of each map.
-                    </p>
-                </AboutSection>
-                <AboutSection>
-                    <Image
-                        src={`/images/screenshots/screenshot-2.png`}
-                        alt='Blood Running screenshot'
-                        unoptimized 
-                        priority
-                        width={1920}
-                        height={1080}
-                    />
-                </AboutSection>
-            </div>
-            <div className='w-full flex flex-col lg:flex-row mb-14 justify-between'>
-                <AboutSection side='left'>
-                    <Image
-                        src={`/images/screenshots/screenshot-6.png`}
-                        alt='Blood Running screenshot'
-                        unoptimized 
-                        priority
-                        width={1920}
-                        height={1080}
-                    />
-                </AboutSection>
-                <AboutSection>
-                    <h2 className='font-monterrat text-white text-3xl lg:text-4xl font-bold py-0 mb-5 leading-none'>WEAPON MODDING</h2>
-                    <p className='font-hind text-silver text-lg lg:text-xl font-normal'>
-                        Run the wastelands in a way that matches your playstyle. With fully modular guns, you can mix and match to make yourself the toughest challenger in the wastelands. Build a weapon that suits your style and become the ultimate runner.
-                    </p>
-                </AboutSection>
-            </div>
-        </div>
-    </Container>
-  )
-}
-
-export default About
+export default About;
