@@ -20,6 +20,7 @@ const Divider = () => {
 				quality={100}
 				width={0}
 				height={0}
+				sizes='100vw'
 				style={{ width: '100%', height: 'auto' }} // optional
 				alt='logo'
 			/>
