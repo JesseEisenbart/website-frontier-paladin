@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Divider = () => {
 	return (
 		<motion.div
-			className='w-full h-full flex justify-center my-32'
+			className='w-full h-full flex justify-center my-16 sm:my-32'
 			initial={{ opacity: 0, y: 60 }}
 			whileInView={{
 				opacity: 1,
@@ -14,7 +14,7 @@ const Divider = () => {
 			viewport={{ once: true }}
 		>
 			<Image
-				className='px-16'
+				className='px-4 md:px-16'
 				src='/images/divider.png'
 				priority
 				quality={100}
